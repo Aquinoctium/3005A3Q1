@@ -52,7 +52,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         String url = "jdbc:postgresql://localhost:5432/3005A3Q1";
         String user = "postgres";
-        String password = "C6d84dqt1@@";
+        String password = "admin";
         String createSQL = "DROP TABLE IF EXISTS students;\n" +
                 "\n" +
                 "CREATE TABLE students (\n" +
